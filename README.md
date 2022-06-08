@@ -42,5 +42,12 @@ YOLO와 FaceNet을 활용하여 구현하였습니다.
 <img src="./image/board_test.gif" alt="board_test"/>
 </p>
 
-***
+## 세부 구현 내용
+### YOLO 와 FaceNet 통신
+
+<p align="center">
+<img src="./image/shared_memory.png" alt="model_connection" style="width:500px;"/>
+</p>
+
+YOLO는 `C`로 구현되어 있고 FaceNet은 `Python`으로 구현되어 있으므로 입출력값을 공유하기 위한 공유 메모리를 사용함.
 
