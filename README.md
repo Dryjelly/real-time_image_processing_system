@@ -45,6 +45,27 @@
 <img src="./image/board_test.gif" alt="board_test"/>
 </p>
 
+## 실행
+
+#### 유해물질 모자이크
+```
+# step 1
+./cap.bash object
+```
+
+#### 특정 인물 제외 모든 인물 모자이크
+```
+# step 1. 특정 인물 얼굴 캡쳐
+./cap.bash crop
+
+# step 2. FaceNet 학습
+./cap.bash train
+
+# step 3. 실행
+./cap.bash face
+```
+
+
 ## 세부 구현 내용
 #### YOLO-FaceNet 통신
 
