@@ -99,6 +99,7 @@ YOLO(Tiny Yolo)는 임베디드 보드로 수행, 30fps 마다 PC와 Socket 통�
 ## Reference
 #### Site
 * [YOLOv3](https://pjreddie.com/darknet/yolo/)
+* [Darknet YOLO분석](https://pgmrlsh.tistory.com/5?category=766787)
 #### Paper
 * [YOLOv3](https://arxiv.org/pdf/1804.02767.pdf)
 * [FaceNet](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf)
