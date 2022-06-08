@@ -1,0 +1,6 @@
+classes= 3
+train  = train_file/train.txt
+valid  = train_file/train.txt
+names = /home/esdl/yolo/darknet2/darknet/train_file/obj.names
+backup = final_dataset_backup_tiny_ver2/
+

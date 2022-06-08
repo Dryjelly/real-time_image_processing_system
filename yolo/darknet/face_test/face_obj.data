@@ -1,0 +1,6 @@
+classes= 1
+train  = face_test/train.txt
+valid  = face_test/train.txt
+names = face_test/face.names
+backup = face_backup/
+
