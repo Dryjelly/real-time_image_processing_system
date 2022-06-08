@@ -46,11 +46,36 @@
 </p>
 
 ## 세부 구현 내용
-### YOLO 와 FaceNet 통신
+#### YOLO-FaceNet 통신
 
 <p align="center">
 <img src="./image/shared_memory.png" alt="model_connection" style="width:500px;"/>
 </p>
 
-YOLO는 `C`로 구현되어 있고 FaceNet은 `Python`으로 구현되어 있으므로 입출력값을 공유하기 위한 공유 메모리를 사용함.
+YOLO는 `C`, FaceNet은 `Python`으로 구현되어 있으므로 입출력값을 공유하기 위한 공유 메모리를 사용합니다.
+
+#### MeanShift
+
+병목 현상 방지를 위해 30fps 중 1fps는 FaceNet, 29fps는 MeanShift 알고리즘을 사용하였습니다.
+
+#### 임베디드 보드
+
+YOLO(Tiny Yolo)는 임베디드 보드로 수행, 30fps 마다 PC와 Socket 통신하여 연산을 요청, FaceNet의 결과를 제공받습니다.
+
+
+## 개발 환경
+#### OS   
+* Linux   
+#### 개발 언어
+* C   
+* Python   
+#### GPU   
+|PC|TX1|
+|---|---|
+|NVIDIA CUDA® Cores-4352|256-core NVIDIA Maxwell™|
+   
+## Reference
+#### Paper
+* [YOLOv3](https://arxiv.org/pdf/1804.02767.pdf)
+* [FaceNet](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf)
 
