@@ -1,5 +1,6 @@
-# 실시간 특정 객체 모자이크 시스템
-   
+# Real-time specific object mosaic processing system
+#### 실시간 특정 객체 모자이크 시스템
+
 <p align="center">
 <img src="./image/model.png" alt="model"/>
 </p>
@@ -45,7 +46,7 @@
 <img src="./image/board_test.gif" alt="board_test"/>
 </p>
 
-## 실행
+## Run
 
 #### 사물 모자이크
 ```
@@ -84,10 +85,10 @@ YOLO는 `C`, FaceNet은 `Python`으로 구현되어 있으므로 입출력값을
 YOLO(Tiny Yolo)는 임베디드 보드로 수행, 30fps 마다 PC와 Socket 통신하여 연산을 요청, FaceNet의 결과를 제공받습니다.
 
 
-## 개발 환경
+## Development Environment
 #### OS   
 * Linux   
-#### 개발 언어
+#### Language
 * C   
 * Python   
 #### GPU   
@@ -104,4 +105,5 @@ YOLO(Tiny Yolo)는 임베디드 보드로 수행, 30fps 마다 PC와 Socket 통�
 #### Code
 * https://github.com/davidsandberg/facenet
 * https://github.com/shanren7/real_time_face_recognition
+* https://github.com/msindev/Facial-Recognition-Using-FaceNet-Siamese-One-Shot-Learning
 
