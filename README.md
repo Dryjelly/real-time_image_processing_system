@@ -58,7 +58,7 @@ YOLO는 `C`, FaceNet은 `Python`으로 구현되어 있으므로 입출력값을
 
 병목 현상 방지를 위해 30fps 중 1fps는 FaceNet, 29fps는 MeanShift 알고리즘을 사용하였습니다.
 
-#### 임베디드 보드
+#### 임베디드 환경
 
 YOLO(Tiny Yolo)는 임베디드 보드로 수행, 30fps 마다 PC와 Socket 통신하여 연산을 요청, FaceNet의 결과를 제공받습니다.
 
