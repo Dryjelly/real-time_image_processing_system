@@ -8,6 +8,13 @@
 #### Paper
 > https://www.koreascience.or.kr/article/CFKO201924664108405.page
 
+#### 수상
+<p align="center">
+  <img src="./image/수상_1.jpg" alt="금상수상" style="width:700px;"/>
+  <img src="./image/수상_2.jpg" alt="은상" style="width:400px;"/>
+  <img src="./image/수상_3.jpg" alt="금상" style="width:400px;"/>
+</p>
+
 #### 설명
 방송에서는 당사자의 동의 없이 얼굴을 노출 시키거나, 유해물질로 판단되는 물체의 노출을 금지하고 있다. 기존의 처리방식으로 편집자가 촬영된 영상을 직접 편집하거나, 촬영 시 가리개를 이용하는 방법을 사용한다. 이러한 방법은 번거롭고, 실수로 인해 얼굴이나 유해물질이 방송에 그대로 노출될 수 있다. 본 논문에서는 딥러닝 기반의 객체탐지 모델과 동일인 판단 모델을 사용하여 편집 과정을 자동으로 처리하고 후처리 뿐만 아니라 실시간 방송에서의 적용을 위해 추가적으로 객체추적 알고리즘을 도입하여 처리속도를 높이는 방안을 제시한다.
 
@@ -19,6 +26,7 @@
 * 촬영 후 편집으로 수행했던 작업들을 실시간으로 처리할 수 있으므로 실시간 미디어 매체에 활용이 가능합니다.   
 * 임베디드 보드(Jetson tx1 board)에서 동작할 수 있습니다.   
 * `YOLO`와 `FaceNet`을 활용하여 구현하였습니다.
+
 
 ***
 
@@ -95,11 +103,6 @@ YOLO(Tiny Yolo)는 임베디드 보드로 수행, 30fps 마다 PC와 Socket 통�
 |PC|TX1|
 |---|---|
 |NVIDIA CUDA® Cores-4352|256-core NVIDIA Maxwell™|
-
-## 수상
-<p align="center">
-<img src="./image/model.png" alt="model"/>
-</p>
 
 ## Reference
 #### Site
