@@ -95,7 +95,12 @@ YOLO(Tiny Yolo)는 임베디드 보드로 수행, 30fps 마다 PC와 Socket 통�
 |PC|TX1|
 |---|---|
 |NVIDIA CUDA® Cores-4352|256-core NVIDIA Maxwell™|
-   
+
+## 수상
+<p align="center">
+<img src="./image/model.png" alt="model"/>
+</p>
+
 ## Reference
 #### Site
 * [YOLOv3](https://pjreddie.com/darknet/yolo/)
